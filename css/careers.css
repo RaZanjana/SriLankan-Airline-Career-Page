@@ -1,0 +1,140 @@
+.career-header {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.84) 100%), url(../assets/imgs/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding: 4rem 0 4rem 0;
+}
+.career-header .content {
+  width: 60%;
+}
+.career-header .content .title {
+  font-weight: 700;
+}
+.career-header .content .title,
+.career-header .content .desc,
+.career-header .content .btn-primary {
+  color: white;
+  font-family: 'Poppins';
+}
+.career-header .content .btn-primary {
+  background-color: #0088DD !important;
+  border-radius: 0% !important;
+  border: none !important;
+  padding: 1rem;
+}
+.career-header .content .btn-primary .btn-icon {
+  margin-left: 0.5rem;
+}
+.career-header .content .btn-primary:hover .btn-icon {
+  margin-left: 1rem !important;
+  transition: linear 0.2s;
+}
+.talent-area {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.talent-area .content .title {
+  font-weight: 700;
+  color: #0088DD;
+}
+.talent-area .communities .com-item {
+  position: relative;
+  min-width: 100%;
+  min-height: 300px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+.talent-area .communities .com-item .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  -webkit-transition: background 1s linear;
+  transition: background 1s linear;
+}
+.talent-area .communities .com-item .service-wrap-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -o-object-fit: cover;
+  object-position: center;
+  position: absolute;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.talent-area .communities .com-item h5 {
+  font-style: normal;
+  font-weight: 600;
+  color: #0088DD;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0 15px 15px 0;
+  z-index: 15;
+  -webkit-transition: text-decoration 2s ease-in-out;
+  transition: text-decoration 2s ease-in-out;
+}
+.talent-area .communities .com-item:hover {
+  filter: saturate(100%);
+}
+.talent-area .communities .com-item:hover .service-wrap-img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.talent-area .communities .com-item:hover .mask {
+  cursor: pointer;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+.talent-area .together-sec {
+  padding-top: 2rem;
+}
+.talent-area .together-sec .left .content-area .title-b {
+  font-weight: 700;
+}
+.talent-area .together-sec .left .content-area .title-b,
+.talent-area .together-sec .left .content-area .title {
+  color: #0088DD;
+}
+.talent-area .together-sec .left .content-area .btn-primary {
+  background-color: #0088DD !important;
+  border-radius: 0% !important;
+  border: none !important;
+  padding: 1rem;
+}
+.talent-area .together-sec .left .content-area .btn-primary .btn-icon {
+  margin-left: 0.5rem;
+}
+.talent-area .together-sec .left .content-area .btn-primary:hover .btn-icon {
+  margin-left: 1rem !important;
+  transition: linear 0.2s;
+}
+.talent-area .together-sec .right {
+  background: url(../assets/imgs/plane.png);
+  background-size: cover;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 768px) {
+  .career-header .content {
+    width: 80% !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .career-header .content {
+    width: 100% !important;
+  }
+  .talent-area .communities .row .col-sm-12,
+  .talent-area .communities .row .col-12 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .talent-area .together-sec .row .col-md-7,
+  .talent-area .together-sec .row .col-md-5 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}

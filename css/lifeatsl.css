@@ -1,0 +1,109 @@
+.life-header {
+  background: linear-gradient(270deg, rgba(0, 136, 221, 0) 0%, rgba(0, 136, 221, 0.8) 100%), url(../assets/imgs/lifeatsl-bg.jpg), #0088DD;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding: 4rem 0 4rem 0;
+}
+.life-header .content {
+  width: 60%;
+}
+.life-header .title {
+  font-weight: 700;
+}
+.life-header .title,
+.life-header .desc,
+.life-header .btn-light {
+  color: #212121;
+  font-family: 'Poppins';
+}
+.life-header .btn-light {
+  background-color: #ffffff !important;
+  border-radius: 0% !important;
+  border: none !important;
+  padding: 1rem;
+}
+.life-header .btn-light .btn-icon {
+  margin-left: 0.5rem;
+}
+.life-header .btn-light:hover .btn-icon {
+  margin-left: 1rem !important;
+  transition: linear 0.2s;
+}
+.explore {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.explore .content .title {
+  font-weight: 700;
+  color: #212121;
+}
+.explore .content .form input {
+  border-radius: 0% !important;
+}
+.explore .content .form .form-control:focus {
+  border-color: #0088dd;
+  box-shadow: 0 0 0 0.2rem rgba(0, 136, 221, 0.25);
+}
+.explore .content .btn-primary {
+  background-color: #0088DD !important;
+  border-radius: 0% !important;
+  border: none !important;
+  padding: 0.5rem;
+}
+.explore .content .btn-primary .btn-icon {
+  margin-left: 0.5rem;
+}
+.explore .content .btn-primary:hover .btn-icon {
+  margin-left: 1rem !important;
+  transition: linear 0.2s;
+}
+.explore .content .btn-outline-primary {
+  color: #0088DD !important;
+  border-color: #0088DD !important;
+  border-radius: 0%;
+}
+.explore .content .dropdown-toggle::after {
+  display: none !important;
+}
+.explore .content .btn-outline-primary.dropdown-toggle:focus,
+.explore .content .btn-outline-primary.dropdown-toggle:hover {
+  color: #ffffff !important;
+  background-color: #0088DD !important;
+}
+.explore .content .job-list .card {
+  border: none;
+}
+.explore .content .job-list .card:hover {
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  transition: 0.2s;
+}
+.explore .content .job-list .badge-secondary {
+  background-color: #D9D9D9;
+  color: #4D4D4D;
+  padding: 0.5rem;
+  border-radius: 0%;
+  font-weight: 500 !important;
+}
+@media only screen and (max-width: 768px) {
+  .life-header .content {
+    width: 80% !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .life-header .content {
+    width: 100% !important;
+  }
+  .explore .search-btn .btn i {
+    display: none !important;
+  }
+  .explore .filter-drpdown .dropdown-toggle {
+    margin-top: 0.5rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .life-header .btn i {
+    display: none !important;
+  }
+}
